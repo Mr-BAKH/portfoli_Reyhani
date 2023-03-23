@@ -1,0 +1,24 @@
+#nav {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0.2rem 3rem 0;
+}
+
+.navItem {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    line-height: 5rem;
+}
+
+.navItemMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+

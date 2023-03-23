@@ -1,0 +1,9 @@
+/* ============= MEDIA QUERIES ( MEDIUM DEVICES ) ============== */
+@media screen and (max-width: 900px) {
+    .wellcomeBox {
+        flex-direction: column;
+        height: max-content !important;
+        padding: 4rem !important;
+        gap: 2rem;
+    }
+}

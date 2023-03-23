@@ -1,0 +1,19 @@
+/* ============= MEDIA QUERIES ( MEDIUM DEVICES ) ============== */
+@media screen and (max-width: 1024px) {
+    .footerComm {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+/* ============= MEDIA QUERIES ( SMALL DEVICES ) ============== */
+@media screen and (max-width: 600px) {
+    #footer {
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        height: max-content;
+        gap: 2rem !important;
+        width: 100vw !important;
+    }
+}
