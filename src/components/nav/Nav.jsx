@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import pallet from '../../theme'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Box, AppBar, Toolbar, Typography, CssBaseline, Divider, Drawer, List, ListItem, ListItemButton, ListItemText, Button } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -8,11 +8,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Btn from '../btn/Btn'
 import './nav.css'
 
-
 const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Portfolio', 'Contact', 'Blog'];
 
-const Nav =(props)=>{  
+const App =(props)=>{  
 
     const { window } = props;
     const [mobileOpen, setMobileOpen] = useState(false);
@@ -45,11 +44,11 @@ const Nav =(props)=>{
                         }
                     }}
                 >
-                    <li className='header_link'><Link to={"/"} >Home</Link></li>
-                    <li className='header_link'><Link to={"/About"} >About</Link></li>
-                    <li className='header_link'><Link to={"/Portfolio"} >Portfolio</Link></li>
-                    <li className='header_link'><Link to={"/Contact"} >Contact</Link></li>
-                    <li className='header_link'><Link to={"/Blog"} >Blog</Link></li>
+                    <li className='header_link'>Home</li>
+                    <li className='header_link'>About</li>
+                    <li className='header_link'>Portfolio</li>
+                    <li className='header_link'>Contact</li>
+                    <li className='header_link'>Blog</li>
                 </Box>
             </List>
             <Btn>Download CV</Btn>
@@ -76,11 +75,12 @@ const Nav =(props)=>{
                         }
                     }}
                 >
-                    <li className='header_link'><Link to={"/"} >Home</Link></li>
-                    <li className='header_link'><Link to={"/About"} >About</Link></li>
-                    <li className='header_link'><Link to={"/Portfolio"} >Portfolio</Link></li>
-                    <li className='header_link'><Link to={"/Contact"} >Contact</Link></li>
-                    <li className='header_link'><Link to={"/Blog"} >Blog</Link></li>
+                    {/* <li className='header_link'><Link to={"/"} >Home</Link></li> */}
+                    <li className='header_link'>Home</li>
+                    <li className='header_link'>About</li>
+                    <li className='header_link'>Portfolio</li>
+                    <li className='header_link'>Contact</li>
+                    <li className='header_link'>Blog</li>
                 </Box>
                 <Btn>Download CV</Btn>
             </Box>
@@ -119,4 +119,4 @@ const Nav =(props)=>{
   );
 }
 
-export default Nav;
+export default App;
