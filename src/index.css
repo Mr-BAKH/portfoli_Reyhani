@@ -23,6 +23,8 @@ font-family: 'Poppins', sans-serif; */
 
 body {
   font-family: 'Nunito', sans-serif;
+  opacity: 0;
+  animation: wellcome 1s 1s 1 forwards ;
 }
 
 /* width */
@@ -86,4 +88,8 @@ h5 {
 
 .itemSpace4 {
   grid: 4rem;
+}
+
+@keyframes wellcome { 
+  100%{opacity: 1;}
 }

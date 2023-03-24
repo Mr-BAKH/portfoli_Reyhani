@@ -12,7 +12,7 @@ return(
         className={"wellcomeBox"}
         sx={{
             overflow:'hidden',
-            padding:"5rem",
+            padding:"0 10rem",
             width:'100%',
             height:'90vh',
             display:'flex',
@@ -22,11 +22,14 @@ return(
         }}
     >      
         <div 
+            className="text-wellcome1"
             style={{
                 flex:1,
+                padding:'0 1rem',
+                marginleft:"2rem",
                 display:'flex',
                 alignItems:"center",
-                justifyContent:'start',
+                justifyContent:'center',
                 flexWrap:'wrap'
             }}
         >
@@ -37,7 +40,7 @@ return(
             <span style={{width:"100%",marginTop:'30px'}} ><Btn>ReadMore</Btn></span>
 
         </div>
-        <div style={{ display:"flex",flex:2,alignItems:"center", justifyContent:'center', overflow:"hidden", position:'relative', zIndex:'0' }}>
+        <div style={{ display:"flex",alignItems:"center", justifyContent:'center', overflow:"hidden", position:'relative', zIndex:'0' }}>
             <img src={backShape} style={{zIndex:'-1',position:"absolute",bottom:'-420px',right:'-360px', width: '1400px', height:'1200px'}} alt="shape"/>
             <img src={Profile} style={{objectFit:"contain", width: '600px', height:'600px'}} alt="shape"/>
 
