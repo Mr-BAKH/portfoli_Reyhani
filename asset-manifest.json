@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.adbb704e.css",
-    "main.js": "./static/js/main.8209510f.js",
+    "main.js": "./static/js/main.75ed8e8d.js",
     "static/media/profile.png": "./static/media/profile.100a197895530549ee04.png",
     "static/media/canrRent.jpg": "./static/media/canrRent.238b1a841ec8dcc62ee7.jpg",
     "static/media/development.png": "./static/media/development.a248d3338089ee1fb7f6.png",
@@ -13,13 +13,13 @@
     "static/media/DigitalMarketing.png": "./static/media/DigitalMarketing.b9519ab6812f578a8bfc.png",
     "static/media/car-rental_car1.jpg": "./static/media/car-rental_car1.236b86529918671243ba.jpg",
     "static/media/logo design.png": "./static/media/logo design.43b6213cd04b8c7281f6.png",
-    "static/media/blob.svg": "./static/media/blob.780fc6de68c69e9c7a197c3b97cbd481.svg",
+    "static/media/blob.svg": "./static/media/blob.a58ec504c40ef0e52a388698326867dc.svg",
     "index.html": "./index.html",
     "main.adbb704e.css.map": "./static/css/main.adbb704e.css.map",
-    "main.8209510f.js.map": "./static/js/main.8209510f.js.map"
+    "main.75ed8e8d.js.map": "./static/js/main.75ed8e8d.js.map"
   },
   "entrypoints": [
     "static/css/main.adbb704e.css",
-    "static/js/main.8209510f.js"
+    "static/js/main.75ed8e8d.js"
   ]
 }
