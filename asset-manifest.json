@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.531ea64c.css",
+    "main.css": "./static/css/main.5792fe86.css",
     "main.js": "./static/js/main.bfc88a65.js",
     "static/media/profile.png": "./static/media/profile.100a197895530549ee04.png",
     "static/media/canrRent.jpg": "./static/media/canrRent.238b1a841ec8dcc62ee7.jpg",
@@ -15,11 +15,11 @@
     "static/media/logo design.png": "./static/media/logo design.43b6213cd04b8c7281f6.png",
     "static/media/blob.svg": "./static/media/blob.a58ec504c40ef0e52a388698326867dc.svg",
     "index.html": "./index.html",
-    "main.531ea64c.css.map": "./static/css/main.531ea64c.css.map",
+    "main.5792fe86.css.map": "./static/css/main.5792fe86.css.map",
     "main.bfc88a65.js.map": "./static/js/main.bfc88a65.js.map"
   },
   "entrypoints": [
-    "static/css/main.531ea64c.css",
+    "static/css/main.5792fe86.css",
     "static/js/main.bfc88a65.js"
   ]
 }
